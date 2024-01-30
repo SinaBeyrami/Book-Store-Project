@@ -106,7 +106,7 @@ With this command, the App admin can view the list of all book stores. By enteri
 
 .
 
-*remove restaurant "name"*:
+*remove book store "name"*:
 
 Whit this command, a book store will be removed.
 
