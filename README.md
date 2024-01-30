@@ -49,7 +49,7 @@ User's passwords must be strong, which means they must have at least 5 character
 
 .
 
-*login "usernam" "password"*:
+*login "username" "password"*:
 
 This command is given for user login with username and password.
 
