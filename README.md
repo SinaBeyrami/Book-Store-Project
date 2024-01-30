@@ -13,11 +13,11 @@ We have commands and messages enums and MainMenu, LoginMenu, CustomerMenu, BookS
 controller (**C**):
 This package is the interface between the model and the view, or in a way, the connection between the main core and the logic of the program.
 We have MainMenuController, LoginMenuController, CustomerMenuController, BookStoreAdminMenuController, AppAdminMenuController classes in this package.
-
-
-
-
-
+.
+.
+.
+.
+.
 Details of how the program works:
 
 At the beginning of the program, we are in the **login menu**.
