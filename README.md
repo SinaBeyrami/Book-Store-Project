@@ -15,6 +15,9 @@ This package is the interface between the model and the view, or in a way, the c
 We have MainMenuController, LoginMenuController, CustomerMenuController, BookStoreAdminMenuController, AppAdminMenuController classes in this package.
 
 
+
+
+
 Details of how the program works:
 
 At the beginning of the program, we are in the **login menu**.
