@@ -130,6 +130,10 @@ By typing this command, the list of all discount codes assigned to customers wil
 
 .
 
+charge account "amount":
+
+This command is used to increase the balance of the customer account.
+
 .
 
 *charge account "amount"*:
