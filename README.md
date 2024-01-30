@@ -41,7 +41,7 @@ In addition to the main menu, the *"logout"* command *is valid* in other menus (
 
 .
 
-*register <username> <password>*:
+*register "username" "password"*:
 
 Username can only contain numbers, English alphabets and underscore characters. It must also contain at least one letter of the English alphabet.
 
@@ -49,19 +49,19 @@ User's passwords must be strong, which means they must have at least 5 character
 
 .
 
-*login <usernam> <password>*:
+*login "usernam" "password"*:
 
 This command is given for user login with username and password.
 
 .
 
-*change password <username> <old password> <new password>*:
+*change password "username" "old password" "new password"*:
 
 Old password must be correct and new password must be strong.
 
 .
 
-*remove account <username> <password>*:
+*remove account "username" "password"*:
 
 .
 
@@ -75,7 +75,7 @@ Old password must be correct and new password must be strong.
 
 .
 
-*enter <menu name>*:
+*enter "menu name"*:
 
 By this command, we can enter one of three menu. (customer menu, book store admin menu, App admin menu)
 According to his/her role, each user can only enter one of the three mentioned menus.
@@ -94,25 +94,25 @@ With this command, the user is logged out and returns to the login menu.
 
 .
 
-*add book store <name> <password> <type>*:
+*add book store "name" "password" "type"*:
 
 By entering this command, a new book store will be created with the specified name and type and zero balance.
 
 .
 
-*show book store -t <type>*:
+*show book store -t "type"*:
 
-With this command, the App admin can view the list of all book stores. By entering the <type> option, the admin can see only book stores that have a certain type (for example publisher or mall).
+With this command, the App admin can view the list of all book stores. By entering the "type" option, the admin can see only book stores that have a certain type (for example publisher or mall).
 
 .
 
-*remove restaurant <name>*:
+*remove restaurant "name"*:
 
 Whit this command, a book store will be removed.
 
 .
 
-*set discount <username> <amount> <code>*:
+*set discount "username" "amount" "code"*:
 
 The App admin can assign a discount with a specified amount and code to a customer using this command.
 
@@ -132,7 +132,7 @@ By typing this command, the list of all discount codes assigned to customers wil
 
 .
 
-*charge account <amount>*:
+*charge account "amount"*:
 
 This command is used to increase the balance of the book store.
 
@@ -144,7 +144,7 @@ With this command, the balance of the book store account will be displayed.
 
 .
 
-*add book <name> <genre> <price> <cost>*:
+*add book "name" "genre" "price" "cost"*:
 
 By entering this command, the book store admin can enter a book with the specified genre, price and purchase or production cost into the menu.
 
@@ -152,7 +152,7 @@ By entering this command, the book store admin can enter a book with the specifi
 
 .
 
-*remove book <name>*:
+*remove book "name"*:
 
 This command deletes a book with the specified name.
 
@@ -164,13 +164,13 @@ This command deletes a book with the specified name.
 
 .
 
-*show book store -t <type>*:
+*show book store -t "type"*:
 
 This command has the same functionality as the show restaurant command in the App admin menu, with the difference that logically a customer cannot see the account balance of a book store.
 
 .
 
-*show menu <book store name> -g <genre>*:
+*show menu "book store name" -g "genre"*:
 
 If the command is executed without genre option, it will display the list of all the books in the book store menu.
 
@@ -178,13 +178,13 @@ If the command is used with -g option, only books of that genre will be displaye
 
 .
 
-*add to cart <book store name> <book name> -n <number>*:
+*add to cart "book store name" "book name" -n "number"*:
 
 This command adds the specified number of a book (default = 1) to the cart.
 
 .
 
-*remove from cart <book store name> <book name> -n <number>*:
+*remove from cart "book store name" "book name" -n "number"*:
 
 This command removes a number (default = 1) of a book from the shopping cart.
 
@@ -202,7 +202,7 @@ With this command, the customer can see all the discount codes assigned to his/h
 
 .
 
-*purchase cart -d <discount code>*:
+*purchase cart -d "discount code"*:
 
 With this command, the customer can finalize his/her order by paying the total price of the books in the shopping cart.
 
